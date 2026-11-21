@@ -62,7 +62,7 @@ def preparer_variables(donnees: pd.DataFrame) -> pd.DataFrame:
             "duree_mois": x["duree_mois"],
             "log_revenu": np.log(x["revenu_mensuel"]),
             "log_montant": np.log(x["montant_credit"]),
-            "taux_effort": x["montant_credit"] / x["duree_mois"] / x["revenu_mensuel"],
+            "taux_effort": x["montant_credit"] / (x["duree_mois"] / 12) / x["revenu_mensuel"],
         },
         columns=VARIABLES_MODELE,
     )
