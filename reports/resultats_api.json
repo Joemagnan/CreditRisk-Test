@@ -1,0 +1,114 @@
+[
+  {
+    "id": "S01",
+    "scenario": "Requête valide",
+    "code_attendu": 200,
+    "code_obtenu": 200,
+    "conforme": true,
+    "reponse": "probabilite_defaut=0.5465, niveau_risque=faible, alertes=aucune"
+  },
+  {
+    "id": "S02",
+    "scenario": "Champ obligatoire absent (revenu)",
+    "code_attendu": 422,
+    "code_obtenu": 422,
+    "conforme": true,
+    "reponse": "erreur=donnees_invalides ; revenu_mensuel : champ obligatoire absent"
+  },
+  {
+    "id": "S03",
+    "scenario": "Âge négatif (-5)",
+    "code_attendu": 422,
+    "code_obtenu": 422,
+    "conforme": true,
+    "reponse": "erreur=donnees_invalides ; age : doit être supérieur ou égal à 18"
+  },
+  {
+    "id": "S04",
+    "scenario": "Revenu sous forme de texte",
+    "code_attendu": 422,
+    "code_obtenu": 422,
+    "conforme": true,
+    "reponse": "erreur=donnees_invalides ; revenu_mensuel : un nombre est attendu"
+  },
+  {
+    "id": "S05a",
+    "scenario": "Montant nul",
+    "code_attendu": 422,
+    "code_obtenu": 422,
+    "conforme": true,
+    "reponse": "erreur=donnees_invalides ; montant_credit : doit être strictement supérieur à 0"
+  },
+  {
+    "id": "S05b",
+    "scenario": "Montant négatif",
+    "code_attendu": 422,
+    "code_obtenu": 422,
+    "conforme": true,
+    "reponse": "erreur=donnees_invalides ; montant_credit : doit être strictement supérieur à 0"
+  },
+  {
+    "id": "S06",
+    "scenario": "Durée non entière (12,5)",
+    "code_attendu": 422,
+    "code_obtenu": 422,
+    "conforme": true,
+    "reponse": "erreur=donnees_invalides ; duree_mois : un nombre entier est attendu"
+  },
+  {
+    "id": "S07",
+    "scenario": "Champ supplémentaire (sexe)",
+    "code_attendu": 422,
+    "code_obtenu": 422,
+    "conforme": true,
+    "reponse": "erreur=donnees_invalides ; sexe : champ non autorisé"
+  },
+  {
+    "id": "S08a",
+    "scenario": "Revenu extrêmement élevé (10^12)",
+    "code_attendu": 422,
+    "code_obtenu": 422,
+    "conforme": true,
+    "reponse": "erreur=donnees_invalides ; revenu_mensuel : doit être inférieur ou égal à 50 000 000"
+  },
+  {
+    "id": "S08b",
+    "scenario": "Revenu très élevé mais autorisé (40 M)",
+    "code_attendu": 200,
+    "code_obtenu": 200,
+    "conforme": true,
+    "reponse": "probabilite_defaut=0.2410, niveau_risque=faible, alertes=hors_plage_entrainement"
+  },
+  {
+    "id": "S09",
+    "scenario": "Modèle indisponible",
+    "code_attendu": 503,
+    "code_obtenu": 503,
+    "conforme": true,
+    "reponse": "erreur=modele_indisponible"
+  },
+  {
+    "id": "S10a",
+    "scenario": "JSON mal formé",
+    "code_attendu": 400,
+    "code_obtenu": 400,
+    "conforme": true,
+    "reponse": "erreur=requete_mal_formee"
+  },
+  {
+    "id": "S10b",
+    "scenario": "Corps qui n'est pas un objet",
+    "code_attendu": 422,
+    "code_obtenu": 422,
+    "conforme": true,
+    "reponse": "erreur=donnees_invalides ; corps : le corps de la requête doit être un objet JSON"
+  },
+  {
+    "id": "S10c",
+    "scenario": "Valeur Infinity (JSON non standard)",
+    "code_attendu": 422,
+    "code_obtenu": 422,
+    "conforme": true,
+    "reponse": "erreur=donnees_invalides ; revenu_mensuel : un nombre fini est attendu (NaN et Infinity sont refusés)"
+  }
+]

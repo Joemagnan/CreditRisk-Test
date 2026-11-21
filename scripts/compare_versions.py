@@ -18,7 +18,7 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from app import config  # noqa: E402
-from app.evaluation import comparer_a_reference, metriques  # noqa: E402
+from app.evaluation import choisir_seuil, comparer_a_reference, metriques  # noqa: E402
 from app.preprocessing import VARIABLES_MODELE, preparer_variables  # noqa: E402
 from app.training import entrainer_version  # noqa: E402
 
@@ -55,7 +55,21 @@ CANDIDATES = [
         "params": {"C": 1.0, "class_weight": "balanced"},
         "seuil_force": 0.5,
     },
+    {
+        "version": "1.5.0",
+        "changement": "probabilités recalibrées (correction des odds de la pondération, AN-03)",
+        "algorithme": "regression_logistique",
+        "params": {"C": 1.0, "class_weight": "balanced"},
+        "recalibrer": True,
+    },
 ]
+
+
+def corriger_odds(probas, facteur: float):
+    """Annule l'effet de class_weight='balanced' : les odds sont divisés par w1 / w0."""
+    probas = np.clip(np.asarray(probas, dtype=float), 1e-12, 1 - 1e-12)
+    odds = probas / (1 - probas) / facteur
+    return odds / (1 + odds)
 
 
 def main() -> None:
@@ -79,6 +93,12 @@ def main() -> None:
         validation = run["jeux"]["validation"]
         p_val = modele.predict_proba(preparer_variables(validation)[variables])[:, 1]
         p_cas = modele.predict_proba(entrees[variables])[:, 1]
+        if candidate.get("recalibrer"):
+            train = run["jeux"]["train"]
+            defauts = train[config.TARGET].sum()
+            facteur = (len(train) - defauts) / defauts  # w1 / w0 pour "balanced"
+            p_val, p_cas = corriger_odds(p_val, facteur), corriger_odds(p_cas, facteur)
+            seuil = choisir_seuil(validation[config.TARGET], p_val)  # même règle, sur la validation
         sorties = {
             "metriques": metriques(validation[config.TARGET], p_val, seuil),
             "probas_reference": p_cas.tolist(),

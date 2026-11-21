@@ -1,0 +1,126 @@
+{
+  "environnement": {
+    "date": "2026-11-21T12:33:05",
+    "systeme": "Windows-11-10.0.26300-SP0",
+    "processeur": "Intel(R) Core(TM) Ultra 9 185H",
+    "coeurs_physiques": 16,
+    "coeurs_logiques": 22,
+    "memoire_totale_go": 68.1,
+    "python": "3.12.10",
+    "bibliotheques": {
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "scikit-learn": "1.9.1",
+      "fastapi": "0.162.2",
+      "pydantic": "2.14.3",
+      "uvicorn": "0.54.0",
+      "locust": "2.47.0"
+    },
+    "serveur": "uvicorn, 1 processus (worker), boucle locale 127.0.0.1"
+  },
+  "objectifs": {
+    "inference_p95_ms": 10.0,
+    "api_p95_ms": 200.0,
+    "utilisateurs_cible": 20,
+    "debit_min_req_s": 20.0,
+    "taux_erreur_max": 0.0
+  },
+  "inference_modele": {
+    "n": 2000,
+    "moyenne_ms": 0.465,
+    "p50_ms": 0.444,
+    "p95_ms": 0.568,
+    "p99_ms": 0.726,
+    "max_ms": 1.525
+  },
+  "pipeline_dans_le_processus": {
+    "n": 2000,
+    "moyenne_ms": 1.529,
+    "p50_ms": 1.49,
+    "p95_ms": 1.777,
+    "p99_ms": 2.157,
+    "max_ms": 5.018
+  },
+  "inference_par_lot": {
+    "taille_lot": 5000,
+    "duree_mediane_ms": 0.53,
+    "debit_lignes_s": 9348415
+  },
+  "taille_modele_ko": 1.8,
+  "memoire_serveur_repos_mo": 176.6,
+  "api_http_sequentiel": {
+    "n": 1000,
+    "moyenne_ms": 2.502,
+    "p50_ms": 2.431,
+    "p95_ms": 2.822,
+    "p99_ms": 3.102,
+    "max_ms": 32.446,
+    "erreurs": 0,
+    "debit_req_s": 399.6
+  },
+  "charge_progressive": [
+    {
+      "utilisateurs": 1,
+      "n": 6028,
+      "moyenne_ms": 2.279,
+      "p50_ms": 2.222,
+      "p95_ms": 2.645,
+      "p99_ms": 3.181,
+      "max_ms": 9.188,
+      "debit_req_s": 430.6,
+      "taux_erreur": 0.0
+    },
+    {
+      "utilisateurs": 5,
+      "n": 6196,
+      "moyenne_ms": 11.244,
+      "p50_ms": 10.588,
+      "p95_ms": 15.889,
+      "p99_ms": 24.369,
+      "max_ms": 39.582,
+      "debit_req_s": 441.8,
+      "taux_erreur": 0.0
+    },
+    {
+      "utilisateurs": 10,
+      "n": 6624,
+      "moyenne_ms": 21.077,
+      "p50_ms": 20.974,
+      "p95_ms": 24.181,
+      "p99_ms": 26.687,
+      "max_ms": 50.189,
+      "debit_req_s": 472.8,
+      "taux_erreur": 0.0
+    },
+    {
+      "utilisateurs": 20,
+      "n": 6600,
+      "moyenne_ms": 42.336,
+      "p50_ms": 41.828,
+      "p95_ms": 47.805,
+      "p99_ms": 53.388,
+      "max_ms": 75.216,
+      "debit_req_s": 471.1,
+      "taux_erreur": 0.0
+    },
+    {
+      "utilisateurs": 40,
+      "n": 6672,
+      "moyenne_ms": 84.543,
+      "p50_ms": 82.747,
+      "p95_ms": 99.117,
+      "p99_ms": 118.99,
+      "max_ms": 166.625,
+      "debit_req_s": 473.2,
+      "taux_erreur": 0.0
+    }
+  ],
+  "memoire_serveur_max_mo": 186.0,
+  "cpu_serveur_max_pct": 109.4,
+  "verdict": {
+    "inference_p95": true,
+    "api_p95_sous_charge_cible": true,
+    "debit_sous_charge_cible": true,
+    "aucune_erreur": true
+  }
+}

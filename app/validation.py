@@ -92,6 +92,15 @@ _MESSAGES = {
 }
 
 
+def _nombre_lisible(valeur):
+    """50000000.0 -> '50 000 000' ; 0.5 -> '0.5' (pour les messages d'erreur)."""
+    if isinstance(valeur, int | float) and not isinstance(valeur, bool):
+        if float(valeur).is_integer():
+            return f"{int(valeur):,}".replace(",", " ")
+        return f"{valeur:g}"
+    return valeur
+
+
 def traduire_erreurs(erreurs: list[dict]) -> list[dict]:
     """Transforme les erreurs Pydantic en liste {champ, message}.
 
@@ -104,7 +113,8 @@ def traduire_erreurs(erreurs: list[dict]) -> list[dict]:
         champ = ".".join(chemin) or "corps"
         modele = _MESSAGES.get(erreur.get("type", ""))
         if modele:
-            message = modele.format(**erreur.get("ctx", {}))
+            contexte = {k: _nombre_lisible(v) for k, v in erreur.get("ctx", {}).items()}
+            message = modele.format(**contexte)
         else:
             message = str(erreur.get("msg", "valeur invalide")).removeprefix("Value error, ")
         details.append({"champ": champ, "message": message})
