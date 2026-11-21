@@ -75,7 +75,9 @@ def generer(n: int = N_DOSSIERS, seed: int = config.SEED) -> pd.DataFrame:
 def main() -> None:
     df = generer()
     config.DATA_PATH.parent.mkdir(exist_ok=True)
-    df.to_csv(config.DATA_PATH, index=False)
+    # fins de ligne LF imposées : sous Windows, pandas écrirait CRLF et l'empreinte
+    # SHA-256 du fichier ne serait plus la même après passage par Git (Linux en CI)
+    df.to_csv(config.DATA_PATH, index=False, lineterminator="\n")
     print(f"{len(df)} dossiers écrits dans {config.DATA_PATH.name}")
     print(f"taux de défaut : {df[config.TARGET].mean():.1%}")
     print(df.describe().round(2).to_string())
