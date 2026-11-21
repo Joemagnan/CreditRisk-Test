@@ -1,0 +1,34 @@
+# Exécution locale des étapes de la CI sur main (f9befec) — 21/11/2026 12:42
+$ ruff check .
+All checks passed!
+exit=0
+$ ruff format --check .
+31 files already formatted
+exit=0
+$ pytest --cov=app --cov-report=term-missing --cov-report=xml --cov-fail-under=90 --junitxml=reports/tests/junit.xml
+..............................x.                                         [ 70%]
+tests\test_validation.py ............................................... [ 94%]
+...........                                                              [100%]
+
+- generated xml file: E:\MDSIA 2\TEST LOGICIELS\CreditRisk-Test\reports\tests\junit.xml -
+=============================== tests coverage ================================
+______________ coverage: platform win32, python 3.12.10-final-0 _______________
+
+Name                   Stmts   Miss  Cover   Missing
+----------------------------------------------------
+app\__init__.py            0      0   100%
+app\config.py             26      0   100%
+app\evaluation.py         52      3    94%   62-69
+app\main.py               63      0   100%
+app\prediction.py         69      3    96%   67-68, 82
+app\preprocessing.py      25      0   100%
+app\training.py           49      3    94%   47-55
+app\validation.py         46      3    93%   100-101, 119
+----------------------------------------------------
+TOTAL                    330     12    96%
+Coverage XML written to file coverage.xml
+Required test coverage of 90% reached. Total coverage: 96.36%
+=========================== short test summary info ===========================
+XFAIL tests/test_robustness.py::test_gagner_plus_n_augmente_pas_le_risque - AN-02 : au-delà d'environ 2,4 M FCFA, le risque remonte légèrement avec le revenu (coefficient de log_revenu positif). Anomalie connue, non corrigée en v1.0.0.
+======================= 196 passed, 1 xfailed in 7.27s ========================
+exit=0

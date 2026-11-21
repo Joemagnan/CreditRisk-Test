@@ -3,7 +3,7 @@ name = "creditrisk-test"
 version = "1.0.0"
 description = "Assurance qualité et tests d'un système de prédiction du risque de crédit"
 requires-python = ">=3.12"
-authors = [{ name = "Joe MAGNAN" }]
+authors = [{ name = "Meweani MAGNAN" }]
 
 [tool.ruff]
 line-length = 100

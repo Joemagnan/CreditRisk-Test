@@ -3,7 +3,7 @@
 [![Tests CreditRisk](https://github.com/Joemagnan/CreditRisk-Test/actions/workflows/tests.yml/badge.svg)](https://github.com/Joemagnan/CreditRisk-Test/actions/workflows/tests.yml)
 
 Assurance qualité et tests d'un système de prédiction du risque de défaut de crédit
-(microfinance). Évaluation formative n° 2 de test logiciel, Joe MAGNAN, MDSIA 2.
+(microfinance). Évaluation formative n° 2 de test logiciel, Meweani MAGNAN, MDSIA 2.
 
 > **Données synthétiques.** Les 6 000 demandes sont générées par `scripts/generate_data.py`
 > selon une règle écrite à la main ([data/README.md](data/README.md)). Elles servent à tester le
@@ -16,7 +16,7 @@ Assurance qualité et tests d'un système de prédiction du risque de défaut de
 | Modèle v1.0.0 | régression logistique pondérée, seuil 0,64 choisi sur la validation (coût FN = 5 × FP) |
 | Test (1 200 dossiers, 118 défauts) | 58 défauts repérés, 60 manqués, 114 fausses alertes |
 | Rappel / précision / ROC-AUC | 0,491 / 0,337 / 0,799 : **critère de rappel (0,70) non atteint** |
-| Tests | 196 réussis, 1 échec attendu (anomalie connue AN-02), couverture 97 % |
+| Tests | 196 réussis, 1 échec attendu (anomalie connue AN-02), couverture 96 % |
 | Performance | P95 de l'API 47,8 ms sous 20 utilisateurs simultanés, 471 req/s, 0 erreur |
 | Anomalies | 9 enregistrées : 3 corrigées, 1 évitée, 5 ouvertes ([registre](docs/ANOMALIES.md)) |
 | Conclusion | système **techniquement validé** ; modèle **non apte** à un pilote en l'état |
@@ -108,7 +108,7 @@ Bornes : âge entier de 18 à 75 ans ; revenu et montant strictement positifs, a
 `.github/workflows/tests.yml` exécute Ruff puis Pytest avec la couverture (seuil 90 %) à
 chaque push et pull request vers `main`. Les tests utilisent le modèle versionné : pas de
 réentraînement complet à chaque modification. Un test en échec fait échouer le workflow et
-bloque la fusion (branche `main` protégée).
+bloque la fusion dès que la branche `main` est protégée (règle « status checks » sur les deux jobs).
 
 ## Documents
 
