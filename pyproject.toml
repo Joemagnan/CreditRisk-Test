@@ -19,8 +19,9 @@ select = ["E", "F", "W", "I", "B", "UP"]
 testpaths = ["tests"]
 pythonpath = ["."]
 addopts = "-ra --strict-markers"
-markers = [
-    "demo_echec: test volontairement défaillant (branche de démonstration uniquement)",
+filterwarnings = [
+    "error::FutureWarning",
+    "ignore:Using `httpx` with `starlette.testclient` is deprecated",
 ]
 
 [tool.coverage.run]
