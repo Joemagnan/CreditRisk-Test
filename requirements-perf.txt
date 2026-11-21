@@ -1,0 +1,3 @@
+# Uniquement pour les tests de charge (pas installé en CI)
+-r requirements.txt
+locust
