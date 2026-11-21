@@ -72,7 +72,9 @@ def _modele_indisponible() -> JSONResponse:
 async def erreur_validation(_request: Request, exc: RequestValidationError) -> JSONResponse:
     erreurs = exc.errors()
     if any(e.get("type") == "json_invalid" for e in erreurs):
-        return _erreur(400, "requete_mal_formee", "Le corps de la requête n'est pas un JSON valide.")
+        return _erreur(
+            400, "requete_mal_formee", "Le corps de la requête n'est pas un JSON valide."
+        )
     return _erreur(
         422,
         "donnees_invalides",
@@ -84,7 +86,9 @@ async def erreur_validation(_request: Request, exc: RequestValidationError) -> J
 @app.get("/health")
 def health():
     if not service.pret:
-        return JSONResponse(status_code=503, content={"statut": "indisponible", "modele_charge": False})
+        return JSONResponse(
+            status_code=503, content={"statut": "indisponible", "modele_charge": False}
+        )
     return {"statut": "ok", "modele_charge": True, "version_modele": service.metadata["version"]}
 
 

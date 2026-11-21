@@ -108,7 +108,9 @@ def comparer_a_reference(reference: dict, candidat: dict, tol: dict | None = Non
     if delta["roc_auc"] < -tol["baisse_roc_auc_max"]:
         motifs_investigation.append(f"ROC-AUC en baisse de {-delta['roc_auc']:.3f}")
     if changements_classe > tol["part_cas_modifies_max"]:
-        motifs_investigation.append(f"{changements_classe:.1%} des cas de référence changent de classe")
+        motifs_investigation.append(
+            f"{changements_classe:.1%} des cas de référence changent de classe"
+        )
     if float(ecarts.max(initial=0.0)) > tol["ecart_proba_investigation"]:
         motifs_investigation.append(f"écart de probabilité maximal {ecarts.max():.3f}")
 

@@ -1,0 +1,75 @@
+# Intégration continue CreditRisk-Test (PARTIE VII)
+#
+# À chaque push sur main et à chaque pull request :
+#   1. qualité du code avec Ruff (règles + formatage)
+#   2. tests Pytest avec couverture (échec si la couverture passe sous 90 %)
+#
+# Les tests utilisent le modèle versionné dans models/ (pas de réentraînement complet
+# à chaque modification). Les tests de charge (Locust) ne tournent pas ici : un runner
+# mutualisé ne donne pas des mesures comparables, ils sont lancés en local.
+
+name: Tests CreditRisk
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  qualite:
+    name: Qualité du code (Ruff)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Installation de Ruff
+        run: pip install ruff==0.17.4
+      - name: Règles
+        run: ruff check --output-format=github .
+      - name: Formatage
+        run: ruff format --check .
+
+  tests:
+    name: Tests et couverture
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Installation
+        run: pip install -r requirements.txt
+      - name: Tests et couverture
+        run: >
+          pytest
+          --cov=app --cov-report=term-missing --cov-report=xml
+          --cov-fail-under=90
+          --junitxml=reports/tests/junit.xml
+      - name: Résumé de l'exécution
+        if: always()
+        run: python scripts/ci_summary.py reports/tests/junit.xml coverage.xml >> "$GITHUB_STEP_SUMMARY"
+      - name: Archivage des preuves
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: preuves-tests
+          path: |
+            reports/tests/junit.xml
+            coverage.xml
+          if-no-files-found: ignore

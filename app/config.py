@@ -25,7 +25,8 @@ FEATURES = ["age", "revenu_mensuel", "montant_credit", "duree_mois", "anciennete
 TARGET = "defaut"
 
 # --- Contrat d'entrée (hypothèses H1 à H6 du plan de test) -------------------
-AGE_MIN, AGE_MAX = 18, 75  # H1 : majorité légale ; 75 ans = limite usuelle de l'assurance emprunteur
+# H1 : majorité légale ; 75 ans = limite usuelle de l'assurance emprunteur
+AGE_MIN, AGE_MAX = 18, 75
 REVENU_MAX = 50_000_000  # H2 : FCFA par mois ; au-delà, on suppose une erreur de saisie
 MONTANT_MAX = 50_000_000  # H3 : plafond retenu pour un crédit de microfinance (FCFA)
 DUREE_MIN, DUREE_MAX = 1, 60  # H4 : durée en mois entiers, 5 ans au plus

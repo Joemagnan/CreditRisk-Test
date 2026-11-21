@@ -165,13 +165,17 @@ def test_pas_d_alerte_pour_un_dossier_courant(demande_valide):
 
 
 def test_alerte_hors_plage_entrainement(demande_valide):
-    alertes = detecter_alertes(DemandeCredit(**avec(demande_valide, revenu_mensuel=40_000_000)), PLAGES)
+    alertes = detecter_alertes(
+        DemandeCredit(**avec(demande_valide, revenu_mensuel=40_000_000)), PLAGES
+    )
     assert [a["code"] for a in alertes] == ["hors_plage_entrainement"]
     assert alertes[0]["champ"] == "revenu_mensuel"
 
 
 def test_alerte_taux_effort(demande_valide):
     # 3 000 000 / 12 mois = 250 000 par mois = 100 % du revenu
-    alertes = detecter_alertes(DemandeCredit(**avec(demande_valide, montant_credit=3_000_000)), PLAGES)
+    alertes = detecter_alertes(
+        DemandeCredit(**avec(demande_valide, montant_credit=3_000_000)), PLAGES
+    )
     assert "taux_effort_eleve" in [a["code"] for a in alertes]
     assert "100%" in alertes[-1]["message"]

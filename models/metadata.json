@@ -1,0 +1,128 @@
+{
+  "version": "1.0.0",
+  "date_entrainement": "2026-11-21",
+  "algorithme": "regression_logistique",
+  "parametres": {
+    "C": 1.0,
+    "class_weight": "balanced"
+  },
+  "donnees": "SYNTHÉTIQUES (scripts/generate_data.py) : servent à tester le système, pas à démontrer la performance d'un vrai modèle de crédit",
+  "graine": 2026,
+  "variables_entree": [
+    "age",
+    "revenu_mensuel",
+    "montant_credit",
+    "duree_mois",
+    "anciennete_activite"
+  ],
+  "variables_modele": [
+    "age",
+    "anciennete_activite",
+    "duree_mois",
+    "log_revenu",
+    "log_montant",
+    "taux_effort"
+  ],
+  "seuil": 0.64,
+  "methode_seuil": "coût minimal sur la validation (FN = 5, FP = 1)",
+  "tailles": {
+    "entrainement": 3600,
+    "validation": 1200,
+    "test": 1200
+  },
+  "plages_entrainement": {
+    "age": [
+      18.0,
+      68.0
+    ],
+    "revenu_mensuel": [
+      47000.0,
+      612099.9999999977
+    ],
+    "montant_credit": [
+      50000.0,
+      5540199.999999995
+    ],
+    "duree_mois": [
+      3.0,
+      60.0
+    ],
+    "anciennete_activite": [
+      0.1,
+      18.0
+    ]
+  },
+  "metriques_entrainement": {
+    "n": 3600,
+    "nb_defauts": 352,
+    "taux_defaut": 0.0978,
+    "seuil": 0.64,
+    "rappel": 0.5057,
+    "precision": 0.326,
+    "f1": 0.3964,
+    "roc_auc": 0.7883,
+    "pr_auc": 0.3312,
+    "accuracy": 0.8494,
+    "taux_faux_positifs": 0.1133,
+    "taux_faux_negatifs": 0.4943,
+    "cout_moyen": 0.3439,
+    "matrice_confusion": {
+      "vn": 2880,
+      "fp": 368,
+      "fn": 174,
+      "vp": 178
+    }
+  },
+  "metriques_validation": {
+    "n": 1200,
+    "nb_defauts": 117,
+    "taux_defaut": 0.0975,
+    "seuil": 0.64,
+    "rappel": 0.4103,
+    "precision": 0.2892,
+    "f1": 0.3392,
+    "roc_auc": 0.7544,
+    "pr_auc": 0.313,
+    "accuracy": 0.8442,
+    "taux_faux_positifs": 0.109,
+    "taux_faux_negatifs": 0.5897,
+    "cout_moyen": 0.3858,
+    "matrice_confusion": {
+      "vn": 965,
+      "fp": 118,
+      "fn": 69,
+      "vp": 48
+    }
+  },
+  "metriques_test": {
+    "n": 1200,
+    "nb_defauts": 118,
+    "taux_defaut": 0.0983,
+    "seuil": 0.64,
+    "rappel": 0.4915,
+    "precision": 0.3372,
+    "f1": 0.4,
+    "roc_auc": 0.7988,
+    "pr_auc": 0.3567,
+    "accuracy": 0.855,
+    "taux_faux_positifs": 0.1054,
+    "taux_faux_negatifs": 0.5085,
+    "cout_moyen": 0.345,
+    "matrice_confusion": {
+      "vn": 968,
+      "fp": 114,
+      "fn": 60,
+      "vp": 58
+    }
+  },
+  "acceptation": {
+    "criteres": {
+      "rappel": false,
+      "precision": true,
+      "roc_auc": true,
+      "surapprentissage": true
+    },
+    "tous_atteints": false
+  },
+  "sha256": "c029c48b224a8d0297e1ecdf69ff6e6b08983b599247736a8f719aa9259d7892"
+}

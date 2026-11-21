@@ -1,0 +1,226 @@
+{
+  "version": "1.0.0",
+  "seuil": 0.64,
+  "metriques_entrainement": {
+    "n": 3600,
+    "nb_defauts": 352,
+    "taux_defaut": 0.0978,
+    "seuil": 0.64,
+    "rappel": 0.5057,
+    "precision": 0.326,
+    "f1": 0.3964,
+    "roc_auc": 0.7883,
+    "pr_auc": 0.3312,
+    "accuracy": 0.8494,
+    "taux_faux_positifs": 0.1133,
+    "taux_faux_negatifs": 0.4943,
+    "cout_moyen": 0.3439,
+    "matrice_confusion": {
+      "vn": 2880,
+      "fp": 368,
+      "fn": 174,
+      "vp": 178
+    }
+  },
+  "metriques_validation": {
+    "n": 1200,
+    "nb_defauts": 117,
+    "taux_defaut": 0.0975,
+    "seuil": 0.64,
+    "rappel": 0.4103,
+    "precision": 0.2892,
+    "f1": 0.3392,
+    "roc_auc": 0.7544,
+    "pr_auc": 0.313,
+    "accuracy": 0.8442,
+    "taux_faux_positifs": 0.109,
+    "taux_faux_negatifs": 0.5897,
+    "cout_moyen": 0.3858,
+    "matrice_confusion": {
+      "vn": 965,
+      "fp": 118,
+      "fn": 69,
+      "vp": 48
+    }
+  },
+  "metriques_test": {
+    "n": 1200,
+    "nb_defauts": 118,
+    "taux_defaut": 0.0983,
+    "seuil": 0.64,
+    "rappel": 0.4915,
+    "precision": 0.3372,
+    "f1": 0.4,
+    "roc_auc": 0.7988,
+    "pr_auc": 0.3567,
+    "accuracy": 0.855,
+    "taux_faux_positifs": 0.1054,
+    "taux_faux_negatifs": 0.5085,
+    "cout_moyen": 0.345,
+    "matrice_confusion": {
+      "vn": 968,
+      "fp": 114,
+      "fn": 60,
+      "vp": 58
+    }
+  },
+  "acceptation": {
+    "criteres": {
+      "rappel": false,
+      "precision": true,
+      "roc_auc": true,
+      "surapprentissage": true
+    },
+    "tous_atteints": false
+  },
+  "segments_test": {
+    "age < 25 ans": {
+      "dossiers": 131,
+      "defauts": 26,
+      "taux_faux_negatifs": {
+        "valeur": 0.5,
+        "ic95": [
+          0.3206,
+          0.6794
+        ],
+        "n": 26
+      },
+      "taux_faux_positifs": {
+        "valeur": 0.1714,
+        "ic95": [
+          0.1113,
+          0.2548
+        ],
+        "n": 105
+      }
+    },
+    "age 25-60 ans": {
+      "dossiers": 1012,
+      "defauts": 85,
+      "taux_faux_negatifs": {
+        "valeur": 0.5059,
+        "ic95": [
+          0.4017,
+          0.6096
+        ],
+        "n": 85
+      },
+      "taux_faux_positifs": {
+        "valeur": 0.1014,
+        "ic95": [
+          0.0836,
+          0.1225
+        ],
+        "n": 927
+      }
+    },
+    "age > 60 ans": {
+      "dossiers": 57,
+      "defauts": 7,
+      "taux_faux_negatifs": {
+        "valeur": 0.5714,
+        "ic95": [
+          0.2505,
+          0.8418
+        ],
+        "n": 7
+      },
+      "taux_faux_positifs": {
+        "valeur": 0.04,
+        "ic95": [
+          0.011,
+          0.1346
+        ],
+        "n": 50
+      }
+    },
+    "activité < 1 an": {
+      "dossiers": 202,
+      "defauts": 50,
+      "taux_faux_negatifs": {
+        "valeur": 0.38,
+        "ic95": [
+          0.2586,
+          0.5185
+        ],
+        "n": 50
+      },
+      "taux_faux_positifs": {
+        "valeur": 0.3224,
+        "ic95": [
+          0.2532,
+          0.4003
+        ],
+        "n": 152
+      }
+    },
+    "activité >= 1 an": {
+      "dossiers": 998,
+      "defauts": 68,
+      "taux_faux_negatifs": {
+        "valeur": 0.6029,
+        "ic95": [
+          0.4842,
+          0.7107
+        ],
+        "n": 68
+      },
+      "taux_faux_positifs": {
+        "valeur": 0.0699,
+        "ic95": [
+          0.0552,
+          0.0881
+        ],
+        "n": 930
+      }
+    },
+    "taux d'effort > 40 %": {
+      "dossiers": 106,
+      "defauts": 34,
+      "taux_faux_negatifs": {
+        "valeur": 0.0588,
+        "ic95": [
+          0.0163,
+          0.1909
+        ],
+        "n": 34
+      },
+      "taux_faux_positifs": {
+        "valeur": 0.6528,
+        "ic95": [
+          0.5376,
+          0.7525
+        ],
+        "n": 72
+      }
+    },
+    "ensemble": {
+      "dossiers": 1200,
+      "defauts": 118,
+      "taux_faux_negatifs": {
+        "valeur": 0.5085,
+        "ic95": [
+          0.4194,
+          0.597
+        ],
+        "n": 118
+      },
+      "taux_faux_positifs": {
+        "valeur": 0.1054,
+        "ic95": [
+          0.0884,
+          0.1251
+        ],
+        "n": 1082
+      }
+    }
+  },
+  "coefficients": {
+    "age": -0.0655,
+    "anciennete_activite": -0.8667,
+    "duree_mois": 0.3461,
+    "log_revenu": 0.1263,
+    "log_montant": -0.2221,
+    "taux_effort": 0.8621
+  }
+}

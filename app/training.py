@@ -27,7 +27,9 @@ def decouper(df: pd.DataFrame, seed: int = config.SEED):
     Le découpage est fait AVANT toute transformation apprise (le StandardScaler
     est dans le pipeline et n'est ajusté que sur l'entraînement).
     """
-    train, reste = train_test_split(df, test_size=0.4, stratify=df[config.TARGET], random_state=seed)
+    train, reste = train_test_split(
+        df, test_size=0.4, stratify=df[config.TARGET], random_state=seed
+    )
     validation, test = train_test_split(
         reste, test_size=0.5, stratify=reste[config.TARGET], random_state=seed
     )
@@ -62,12 +64,22 @@ def plages_entrainement(train: pd.DataFrame) -> dict[str, list[float]]:
     }
 
 
-def entrainer_version(df: pd.DataFrame, version: str, algorithme: str, **params) -> dict:
-    """Entraîne une version complète : modèle, seuil choisi sur la validation, métriques."""
+def entrainer_version(
+    df: pd.DataFrame,
+    version: str,
+    algorithme: str,
+    variables: list[str] | None = None,
+    **params,
+) -> dict:
+    """Entraîne une version complète : modèle, seuil choisi sur la validation, métriques.
+
+    `variables` permet d'entraîner une version candidate sur une partie des variables.
+    """
+    variables = variables or VARIABLES_MODELE
     train, validation, test = decouper(df)
-    x_train, y_train = preparer_variables(train), train[config.TARGET]
-    x_val, y_val = preparer_variables(validation), validation[config.TARGET]
-    x_test, y_test = preparer_variables(test), test[config.TARGET]
+    x_train, y_train = preparer_variables(train)[variables], train[config.TARGET]
+    x_val, y_val = preparer_variables(validation)[variables], validation[config.TARGET]
+    x_test, y_test = preparer_variables(test)[variables], test[config.TARGET]
 
     modele = construire_modele(algorithme, **params)
     modele.fit(x_train, y_train)
@@ -85,7 +97,7 @@ def entrainer_version(df: pd.DataFrame, version: str, algorithme: str, **params)
         "pas à démontrer la performance d'un vrai modèle de crédit",
         "graine": config.SEED,
         "variables_entree": config.FEATURES,
-        "variables_modele": VARIABLES_MODELE,
+        "variables_modele": variables,
         "seuil": seuil,
         "methode_seuil": "coût minimal sur la validation (FN = 5, FP = 1)",
         "tailles": {"entrainement": len(train), "validation": len(validation), "test": len(test)},

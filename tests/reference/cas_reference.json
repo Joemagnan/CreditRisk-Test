@@ -1,0 +1,2062 @@
+[
+ {
+  "entree": {
+   "age": 47,
+   "revenu_mensuel": 363000.0,
+   "montant_credit": 7820000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 4.3
+  },
+  "proba_attendue": 0.9856143302006533
+ },
+ {
+  "entree": {
+   "age": 44,
+   "revenu_mensuel": 130000.0,
+   "montant_credit": 980000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 7.8
+  },
+  "proba_attendue": 0.2543848291338304
+ },
+ {
+  "entree": {
+   "age": 39,
+   "revenu_mensuel": 195000.0,
+   "montant_credit": 870000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 0.3
+  },
+  "proba_attendue": 0.7706722880888646
+ },
+ {
+  "entree": {
+   "age": 38,
+   "revenu_mensuel": 333000.0,
+   "montant_credit": 2390000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 5.6
+  },
+  "proba_attendue": 0.4445295335536389
+ },
+ {
+  "entree": {
+   "age": 53,
+   "revenu_mensuel": 257000.0,
+   "montant_credit": 330000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 5.8
+  },
+  "proba_attendue": 0.24920233443783885
+ },
+ {
+  "entree": {
+   "age": 34,
+   "revenu_mensuel": 300000.0,
+   "montant_credit": 320000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 6.0
+  },
+  "proba_attendue": 0.49424813177959614
+ },
+ {
+  "entree": {
+   "age": 34,
+   "revenu_mensuel": 142000.0,
+   "montant_credit": 780000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 3.1
+  },
+  "proba_attendue": 0.4659474337069618
+ },
+ {
+  "entree": {
+   "age": 52,
+   "revenu_mensuel": 125000.0,
+   "montant_credit": 320000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 10.1
+  },
+  "proba_attendue": 0.11869800411830676
+ },
+ {
+  "entree": {
+   "age": 24,
+   "revenu_mensuel": 196000.0,
+   "montant_credit": 200000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 5.1
+  },
+  "proba_attendue": 0.5294847647170359
+ },
+ {
+  "entree": {
+   "age": 32,
+   "revenu_mensuel": 143000.0,
+   "montant_credit": 480000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 9.2
+  },
+  "proba_attendue": 0.1199634176746103
+ },
+ {
+  "entree": {
+   "age": 43,
+   "revenu_mensuel": 210000.0,
+   "montant_credit": 610000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 8.2
+  },
+  "proba_attendue": 0.12635096638237567
+ },
+ {
+  "entree": {
+   "age": 53,
+   "revenu_mensuel": 288000.0,
+   "montant_credit": 680000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 0.8
+  },
+  "proba_attendue": 0.46563887098504636
+ },
+ {
+  "entree": {
+   "age": 46,
+   "revenu_mensuel": 363000.0,
+   "montant_credit": 1320000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 5.4
+  },
+  "proba_attendue": 0.27588128520092675
+ },
+ {
+  "entree": {
+   "age": 30,
+   "revenu_mensuel": 222000.0,
+   "montant_credit": 1680000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 2.0
+  },
+  "proba_attendue": 0.5604513702525689
+ },
+ {
+  "entree": {
+   "age": 48,
+   "revenu_mensuel": 39000.0,
+   "montant_credit": 70000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 0.8
+  },
+  "proba_attendue": 0.399522183153341
+ },
+ {
+  "entree": {
+   "age": 18,
+   "revenu_mensuel": 157000.0,
+   "montant_credit": 1100000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 3.0
+  },
+  "proba_attendue": 0.5968676885047878
+ },
+ {
+  "entree": {
+   "age": 55,
+   "revenu_mensuel": 60000.0,
+   "montant_credit": 50000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 0.7
+  },
+  "proba_attendue": 0.6113994137863106
+ },
+ {
+  "entree": {
+   "age": 32,
+   "revenu_mensuel": 202000.0,
+   "montant_credit": 1150000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 9.5
+  },
+  "proba_attendue": 0.19318910180891125
+ },
+ {
+  "entree": {
+   "age": 31,
+   "revenu_mensuel": 143000.0,
+   "montant_credit": 850000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 16.0
+  },
+  "proba_attendue": 0.0921940566220857
+ },
+ {
+  "entree": {
+   "age": 20,
+   "revenu_mensuel": 99000.0,
+   "montant_credit": 50000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 5.0
+  },
+  "proba_attendue": 0.18061593412683052
+ },
+ {
+  "entree": {
+   "age": 42,
+   "revenu_mensuel": 99000.0,
+   "montant_credit": 260000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 7.1
+  },
+  "proba_attendue": 0.21821622883656427
+ },
+ {
+  "entree": {
+   "age": 30,
+   "revenu_mensuel": 125000.0,
+   "montant_credit": 220000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 5.5
+  },
+  "proba_attendue": 0.4039277554290108
+ },
+ {
+  "entree": {
+   "age": 40,
+   "revenu_mensuel": 42000.0,
+   "montant_credit": 50000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 1.6
+  },
+  "proba_attendue": 0.34225816002939635
+ },
+ {
+  "entree": {
+   "age": 48,
+   "revenu_mensuel": 95000.0,
+   "montant_credit": 190000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 4.6
+  },
+  "proba_attendue": 0.24819428729719215
+ },
+ {
+  "entree": {
+   "age": 44,
+   "revenu_mensuel": 212000.0,
+   "montant_credit": 400000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 1.5
+  },
+  "proba_attendue": 0.4566789126875602
+ },
+ {
+  "entree": {
+   "age": 25,
+   "revenu_mensuel": 205000.0,
+   "montant_credit": 90000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 10.0
+  },
+  "proba_attendue": 0.10079584228025795
+ },
+ {
+  "entree": {
+   "age": 39,
+   "revenu_mensuel": 58000.0,
+   "montant_credit": 220000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 5.7
+  },
+  "proba_attendue": 0.28101008798704824
+ },
+ {
+  "entree": {
+   "age": 40,
+   "revenu_mensuel": 150000.0,
+   "montant_credit": 2330000.0,
+   "duree_mois": 48,
+   "anciennete_activite": 11.6
+  },
+  "proba_attendue": 0.30251777057585144
+ },
+ {
+  "entree": {
+   "age": 54,
+   "revenu_mensuel": 219000.0,
+   "montant_credit": 320000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 10.1
+  },
+  "proba_attendue": 0.08676705917052456
+ },
+ {
+  "entree": {
+   "age": 20,
+   "revenu_mensuel": 439000.0,
+   "montant_credit": 1870000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 1.4
+  },
+  "proba_attendue": 0.4676643924486758
+ },
+ {
+  "entree": {
+   "age": 41,
+   "revenu_mensuel": 233000.0,
+   "montant_credit": 270000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 7.8
+  },
+  "proba_attendue": 0.12016034522245371
+ },
+ {
+  "entree": {
+   "age": 48,
+   "revenu_mensuel": 437000.0,
+   "montant_credit": 2020000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 9.5
+  },
+  "proba_attendue": 0.18377470883188796
+ },
+ {
+  "entree": {
+   "age": 45,
+   "revenu_mensuel": 170000.0,
+   "montant_credit": 2730000.0,
+   "duree_mois": 60,
+   "anciennete_activite": 3.4
+  },
+  "proba_attendue": 0.6869133279090007
+ },
+ {
+  "entree": {
+   "age": 33,
+   "revenu_mensuel": 96000.0,
+   "montant_credit": 130000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 0.8
+  },
+  "proba_attendue": 0.536130443215102
+ },
+ {
+  "entree": {
+   "age": 45,
+   "revenu_mensuel": 121000.0,
+   "montant_credit": 740000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 5.9
+  },
+  "proba_attendue": 0.34884761668575265
+ },
+ {
+  "entree": {
+   "age": 61,
+   "revenu_mensuel": 69000.0,
+   "montant_credit": 510000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 1.0
+  },
+  "proba_attendue": 0.5609658241052797
+ },
+ {
+  "entree": {
+   "age": 38,
+   "revenu_mensuel": 189000.0,
+   "montant_credit": 350000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 8.6
+  },
+  "proba_attendue": 0.12190819698430268
+ },
+ {
+  "entree": {
+   "age": 51,
+   "revenu_mensuel": 180000.0,
+   "montant_credit": 530000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 6.5
+  },
+  "proba_attendue": 0.16675377874872038
+ },
+ {
+  "entree": {
+   "age": 29,
+   "revenu_mensuel": 159000.0,
+   "montant_credit": 240000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 2.6
+  },
+  "proba_attendue": 0.35728393773014705
+ },
+ {
+  "entree": {
+   "age": 30,
+   "revenu_mensuel": 121000.0,
+   "montant_credit": 290000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 2.5
+  },
+  "proba_attendue": 0.41269699373483404
+ },
+ {
+  "entree": {
+   "age": 61,
+   "revenu_mensuel": 153000.0,
+   "montant_credit": 200000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 1.1
+  },
+  "proba_attendue": 0.3157291772898612
+ },
+ {
+  "entree": {
+   "age": 35,
+   "revenu_mensuel": 240000.0,
+   "montant_credit": 260000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 0.4
+  },
+  "proba_attendue": 0.4834746005647386
+ },
+ {
+  "entree": {
+   "age": 46,
+   "revenu_mensuel": 117000.0,
+   "montant_credit": 250000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 5.1
+  },
+  "proba_attendue": 0.24377696052663816
+ },
+ {
+  "entree": {
+   "age": 53,
+   "revenu_mensuel": 239000.0,
+   "montant_credit": 3620000.0,
+   "duree_mois": 48,
+   "anciennete_activite": 20.9
+  },
+  "proba_attendue": 0.05031602155046947
+ },
+ {
+  "entree": {
+   "age": 29,
+   "revenu_mensuel": 341000.0,
+   "montant_credit": 340000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 8.2
+  },
+  "proba_attendue": 0.14464341777335732
+ },
+ {
+  "entree": {
+   "age": 36,
+   "revenu_mensuel": 48000.0,
+   "montant_credit": 80000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 5.5
+  },
+  "proba_attendue": 0.3704686792150096
+ },
+ {
+  "entree": {
+   "age": 30,
+   "revenu_mensuel": 208000.0,
+   "montant_credit": 1200000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 3.4
+  },
+  "proba_attendue": 0.7959282746898318
+ },
+ {
+  "entree": {
+   "age": 22,
+   "revenu_mensuel": 321000.0,
+   "montant_credit": 150000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 7.0
+  },
+  "proba_attendue": 0.18602055544458576
+ },
+ {
+  "entree": {
+   "age": 27,
+   "revenu_mensuel": 262000.0,
+   "montant_credit": 200000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 4.1
+  },
+  "proba_attendue": 0.2446477916920493
+ },
+ {
+  "entree": {
+   "age": 59,
+   "revenu_mensuel": 134000.0,
+   "montant_credit": 260000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 6.3
+  },
+  "proba_attendue": 0.22414978021777038
+ },
+ {
+  "entree": {
+   "age": 41,
+   "revenu_mensuel": 138000.0,
+   "montant_credit": 1080000.0,
+   "duree_mois": 60,
+   "anciennete_activite": 2.1
+  },
+  "proba_attendue": 0.5544573407467289
+ },
+ {
+  "entree": {
+   "age": 28,
+   "revenu_mensuel": 133000.0,
+   "montant_credit": 190000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 3.3
+  },
+  "proba_attendue": 0.43135282692780297
+ },
+ {
+  "entree": {
+   "age": 40,
+   "revenu_mensuel": 279000.0,
+   "montant_credit": 1490000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 6.0
+  },
+  "proba_attendue": 0.6232779582830983
+ },
+ {
+  "entree": {
+   "age": 50,
+   "revenu_mensuel": 129000.0,
+   "montant_credit": 500000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 1.6
+  },
+  "proba_attendue": 0.40028631220799793
+ },
+ {
+  "entree": {
+   "age": 33,
+   "revenu_mensuel": 92000.0,
+   "montant_credit": 180000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 7.0
+  },
+  "proba_attendue": 0.37643003832569205
+ },
+ {
+  "entree": {
+   "age": 70,
+   "revenu_mensuel": 149000.0,
+   "montant_credit": 660000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 1.1
+  },
+  "proba_attendue": 0.45066710477530486
+ },
+ {
+  "entree": {
+   "age": 28,
+   "revenu_mensuel": 158000.0,
+   "montant_credit": 1190000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 0.2
+  },
+  "proba_attendue": 0.844618665513415
+ },
+ {
+  "entree": {
+   "age": 21,
+   "revenu_mensuel": 177000.0,
+   "montant_credit": 260000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 6.0
+  },
+  "proba_attendue": 0.21558973076257143
+ },
+ {
+  "entree": {
+   "age": 61,
+   "revenu_mensuel": 224000.0,
+   "montant_credit": 340000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 2.0
+  },
+  "proba_attendue": 0.47818265944272464
+ },
+ {
+  "entree": {
+   "age": 48,
+   "revenu_mensuel": 236000.0,
+   "montant_credit": 2300000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 1.7
+  },
+  "proba_attendue": 0.6458460785616148
+ },
+ {
+  "entree": {
+   "age": 45,
+   "revenu_mensuel": 146000.0,
+   "montant_credit": 230000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 3.7
+  },
+  "proba_attendue": 0.4264940075809826
+ },
+ {
+  "entree": {
+   "age": 34,
+   "revenu_mensuel": 315000.0,
+   "montant_credit": 330000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 6.6
+  },
+  "proba_attendue": 0.1301591847478987
+ },
+ {
+  "entree": {
+   "age": 50,
+   "revenu_mensuel": 138000.0,
+   "montant_credit": 270000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 0.6
+  },
+  "proba_attendue": 0.37041899829895614
+ },
+ {
+  "entree": {
+   "age": 44,
+   "revenu_mensuel": 116000.0,
+   "montant_credit": 180000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 5.0
+  },
+  "proba_attendue": 0.23976931587623015
+ },
+ {
+  "entree": {
+   "age": 37,
+   "revenu_mensuel": 154000.0,
+   "montant_credit": 540000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 0.8
+  },
+  "proba_attendue": 0.5036572704109429
+ },
+ {
+  "entree": {
+   "age": 66,
+   "revenu_mensuel": 120000.0,
+   "montant_credit": 120000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 1.4
+  },
+  "proba_attendue": 0.6499607954152294
+ },
+ {
+  "entree": {
+   "age": 41,
+   "revenu_mensuel": 94000.0,
+   "montant_credit": 280000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 1.8
+  },
+  "proba_attendue": 0.5117037518171565
+ },
+ {
+  "entree": {
+   "age": 40,
+   "revenu_mensuel": 325000.0,
+   "montant_credit": 160000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 14.4
+  },
+  "proba_attendue": 0.04313554312405382
+ },
+ {
+  "entree": {
+   "age": 57,
+   "revenu_mensuel": 106000.0,
+   "montant_credit": 70000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 3.2
+  },
+  "proba_attendue": 0.38549999471718543
+ },
+ {
+  "entree": {
+   "age": 32,
+   "revenu_mensuel": 236000.0,
+   "montant_credit": 120000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 11.9
+  },
+  "proba_attendue": 0.07649902101082433
+ },
+ {
+  "entree": {
+   "age": 48,
+   "revenu_mensuel": 360000.0,
+   "montant_credit": 1550000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 8.6
+  },
+  "proba_attendue": 0.530033077547593
+ },
+ {
+  "entree": {
+   "age": 55,
+   "revenu_mensuel": 307000.0,
+   "montant_credit": 780000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 1.4
+  },
+  "proba_attendue": 0.45493759921200483
+ },
+ {
+  "entree": {
+   "age": 69,
+   "revenu_mensuel": 81000.0,
+   "montant_credit": 760000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 0.0
+  },
+  "proba_attendue": 0.6841598446908577
+ },
+ {
+  "entree": {
+   "age": 30,
+   "revenu_mensuel": 64000.0,
+   "montant_credit": 120000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 1.8
+  },
+  "proba_attendue": 0.3831085961370043
+ },
+ {
+  "entree": {
+   "age": 39,
+   "revenu_mensuel": 345000.0,
+   "montant_credit": 820000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 7.0
+  },
+  "proba_attendue": 0.20311968435092176
+ },
+ {
+  "entree": {
+   "age": 51,
+   "revenu_mensuel": 45000.0,
+   "montant_credit": 490000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 6.6
+  },
+  "proba_attendue": 0.43779283765330695
+ },
+ {
+  "entree": {
+   "age": 18,
+   "revenu_mensuel": 160000.0,
+   "montant_credit": 340000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 3.0
+  },
+  "proba_attendue": 0.3698881838931744
+ },
+ {
+  "entree": {
+   "age": 22,
+   "revenu_mensuel": 271000.0,
+   "montant_credit": 210000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 7.0
+  },
+  "proba_attendue": 0.15393201075234583
+ },
+ {
+  "entree": {
+   "age": 62,
+   "revenu_mensuel": 92000.0,
+   "montant_credit": 1020000.0,
+   "duree_mois": 48,
+   "anciennete_activite": 2.0
+  },
+  "proba_attendue": 0.6133845327469383
+ },
+ {
+  "entree": {
+   "age": 36,
+   "revenu_mensuel": 211000.0,
+   "montant_credit": 800000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 8.2
+  },
+  "proba_attendue": 0.30366522063156937
+ },
+ {
+  "entree": {
+   "age": 31,
+   "revenu_mensuel": 239000.0,
+   "montant_credit": 2700000.0,
+   "duree_mois": 60,
+   "anciennete_activite": 2.1
+  },
+  "proba_attendue": 0.651950225873239
+ },
+ {
+  "entree": {
+   "age": 29,
+   "revenu_mensuel": 120000.0,
+   "montant_credit": 500000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 10.2
+  },
+  "proba_attendue": 0.26803654887250233
+ },
+ {
+  "entree": {
+   "age": 18,
+   "revenu_mensuel": 127000.0,
+   "montant_credit": 250000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 3.0
+  },
+  "proba_attendue": 0.3511769684051979
+ },
+ {
+  "entree": {
+   "age": 57,
+   "revenu_mensuel": 123000.0,
+   "montant_credit": 1320000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 0.2
+  },
+  "proba_attendue": 0.861794560028762
+ },
+ {
+  "entree": {
+   "age": 33,
+   "revenu_mensuel": 191000.0,
+   "montant_credit": 1060000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 10.6
+  },
+  "proba_attendue": 0.21441508090706066
+ },
+ {
+  "entree": {
+   "age": 43,
+   "revenu_mensuel": 51000.0,
+   "montant_credit": 210000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 1.0
+  },
+  "proba_attendue": 0.5380539049625962
+ },
+ {
+  "entree": {
+   "age": 35,
+   "revenu_mensuel": 526000.0,
+   "montant_credit": 650000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 13.2
+  },
+  "proba_attendue": 0.04512877387245268
+ },
+ {
+  "entree": {
+   "age": 53,
+   "revenu_mensuel": 216000.0,
+   "montant_credit": 610000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 0.9
+  },
+  "proba_attendue": 0.38747664990681124
+ },
+ {
+  "entree": {
+   "age": 36,
+   "revenu_mensuel": 132000.0,
+   "montant_credit": 920000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 9.4
+  },
+  "proba_attendue": 0.25352481111363295
+ },
+ {
+  "entree": {
+   "age": 57,
+   "revenu_mensuel": 123000.0,
+   "montant_credit": 260000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 6.7
+  },
+  "proba_attendue": 0.1756760295053531
+ },
+ {
+  "entree": {
+   "age": 31,
+   "revenu_mensuel": 150000.0,
+   "montant_credit": 1280000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 0.5
+  },
+  "proba_attendue": 0.8807819450619948
+ },
+ {
+  "entree": {
+   "age": 32,
+   "revenu_mensuel": 134000.0,
+   "montant_credit": 470000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 6.4
+  },
+  "proba_attendue": 0.2410346306124316
+ },
+ {
+  "entree": {
+   "age": 61,
+   "revenu_mensuel": 104000.0,
+   "montant_credit": 2170000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 3.1
+  },
+  "proba_attendue": 0.9140541863643022
+ },
+ {
+  "entree": {
+   "age": 37,
+   "revenu_mensuel": 311000.0,
+   "montant_credit": 810000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 8.6
+  },
+  "proba_attendue": 0.17157653536393974
+ },
+ {
+  "entree": {
+   "age": 35,
+   "revenu_mensuel": 104000.0,
+   "montant_credit": 440000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 7.2
+  },
+  "proba_attendue": 0.2542045279284567
+ },
+ {
+  "entree": {
+   "age": 18,
+   "revenu_mensuel": 106000.0,
+   "montant_credit": 630000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 3.0
+  },
+  "proba_attendue": 0.524224256746411
+ },
+ {
+  "entree": {
+   "age": 31,
+   "revenu_mensuel": 130000.0,
+   "montant_credit": 180000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 4.2
+  },
+  "proba_attendue": 0.36996844988057803
+ },
+ {
+  "entree": {
+   "age": 41,
+   "revenu_mensuel": 234000.0,
+   "montant_credit": 900000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 8.6
+  },
+  "proba_attendue": 0.14476707156484822
+ },
+ {
+  "entree": {
+   "age": 35,
+   "revenu_mensuel": 114000.0,
+   "montant_credit": 280000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 0.3
+  },
+  "proba_attendue": 0.5293887982848311
+ },
+ {
+  "entree": {
+   "age": 60,
+   "revenu_mensuel": 182000.0,
+   "montant_credit": 650000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 4.2
+  },
+  "proba_attendue": 0.6029128629986843
+ },
+ {
+  "entree": {
+   "age": 41,
+   "revenu_mensuel": 457000.0,
+   "montant_credit": 470000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 7.2
+  },
+  "proba_attendue": 0.1680537081383657
+ },
+ {
+  "entree": {
+   "age": 38,
+   "revenu_mensuel": 61000.0,
+   "montant_credit": 640000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 0.5
+  },
+  "proba_attendue": 0.938411314714007
+ },
+ {
+  "entree": {
+   "age": 42,
+   "revenu_mensuel": 101000.0,
+   "montant_credit": 250000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 4.5
+  },
+  "proba_attendue": 0.30907400456289535
+ },
+ {
+  "entree": {
+   "age": 60,
+   "revenu_mensuel": 138000.0,
+   "montant_credit": 520000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 4.1
+  },
+  "proba_attendue": 0.8878142618466992
+ },
+ {
+  "entree": {
+   "age": 36,
+   "revenu_mensuel": 184000.0,
+   "montant_credit": 520000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 6.2
+  },
+  "proba_attendue": 0.2807243036925006
+ },
+ {
+  "entree": {
+   "age": 35,
+   "revenu_mensuel": 330000.0,
+   "montant_credit": 340000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 2.8
+  },
+  "proba_attendue": 0.24884602547106927
+ },
+ {
+  "entree": {
+   "age": 23,
+   "revenu_mensuel": 272000.0,
+   "montant_credit": 320000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 6.3
+  },
+  "proba_attendue": 0.17384044346593538
+ },
+ {
+  "entree": {
+   "age": 39,
+   "revenu_mensuel": 359000.0,
+   "montant_credit": 350000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 13.6
+  },
+  "proba_attendue": 0.04726854339003039
+ },
+ {
+  "entree": {
+   "age": 35,
+   "revenu_mensuel": 132000.0,
+   "montant_credit": 660000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 3.1
+  },
+  "proba_attendue": 0.5193854849539522
+ },
+ {
+  "entree": {
+   "age": 40,
+   "revenu_mensuel": 357000.0,
+   "montant_credit": 2080000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 3.2
+  },
+  "proba_attendue": 0.47553373401874866
+ },
+ {
+  "entree": {
+   "age": 54,
+   "revenu_mensuel": 105000.0,
+   "montant_credit": 120000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 0.5
+  },
+  "proba_attendue": 0.7691220449011614
+ },
+ {
+  "entree": {
+   "age": 33,
+   "revenu_mensuel": 97000.0,
+   "montant_credit": 140000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 0.7
+  },
+  "proba_attendue": 0.5653326157296265
+ },
+ {
+  "entree": {
+   "age": 18,
+   "revenu_mensuel": 73000.0,
+   "montant_credit": 290000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 3.0
+  },
+  "proba_attendue": 0.3945927490238395
+ },
+ {
+  "entree": {
+   "age": 51,
+   "revenu_mensuel": 211000.0,
+   "montant_credit": 2200000.0,
+   "duree_mois": 48,
+   "anciennete_activite": 3.8
+  },
+  "proba_attendue": 0.51372145666396
+ },
+ {
+  "entree": {
+   "age": 29,
+   "revenu_mensuel": 134000.0,
+   "montant_credit": 360000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 3.0
+  },
+  "proba_attendue": 0.4260394772358528
+ },
+ {
+  "entree": {
+   "age": 51,
+   "revenu_mensuel": 77000.0,
+   "montant_credit": 250000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 6.6
+  },
+  "proba_attendue": 0.2926537712126789
+ },
+ {
+  "entree": {
+   "age": 31,
+   "revenu_mensuel": 168000.0,
+   "montant_credit": 1490000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 4.1
+  },
+  "proba_attendue": 0.6485273884302365
+ },
+ {
+  "entree": {
+   "age": 38,
+   "revenu_mensuel": 345000.0,
+   "montant_credit": 760000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 6.9
+  },
+  "proba_attendue": 0.19288422643026884
+ },
+ {
+  "entree": {
+   "age": 47,
+   "revenu_mensuel": 186000.0,
+   "montant_credit": 1470000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 10.5
+  },
+  "proba_attendue": 0.2474671382268389
+ },
+ {
+  "entree": {
+   "age": 40,
+   "revenu_mensuel": 638000.0,
+   "montant_credit": 4470000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 0.5
+  },
+  "proba_attendue": 0.6907774324918999
+ },
+ {
+  "entree": {
+   "age": 62,
+   "revenu_mensuel": 177000.0,
+   "montant_credit": 540000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 7.0
+  },
+  "proba_attendue": 0.16774777352981113
+ },
+ {
+  "entree": {
+   "age": 29,
+   "revenu_mensuel": 242000.0,
+   "montant_credit": 1430000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 9.2
+  },
+  "proba_attendue": 0.21598987905006795
+ },
+ {
+  "entree": {
+   "age": 32,
+   "revenu_mensuel": 64000.0,
+   "montant_credit": 90000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 4.6
+  },
+  "proba_attendue": 0.21239879338942594
+ },
+ {
+  "entree": {
+   "age": 43,
+   "revenu_mensuel": 198000.0,
+   "montant_credit": 130000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 5.0
+  },
+  "proba_attendue": 0.18101764171611034
+ },
+ {
+  "entree": {
+   "age": 37,
+   "revenu_mensuel": 285000.0,
+   "montant_credit": 250000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 0.7
+  },
+  "proba_attendue": 0.6587644200666478
+ },
+ {
+  "entree": {
+   "age": 58,
+   "revenu_mensuel": 158000.0,
+   "montant_credit": 140000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 2.2
+  },
+  "proba_attendue": 0.31413114116725654
+ },
+ {
+  "entree": {
+   "age": 29,
+   "revenu_mensuel": 176000.0,
+   "montant_credit": 350000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 0.7
+  },
+  "proba_attendue": 0.5382438353106125
+ },
+ {
+  "entree": {
+   "age": 63,
+   "revenu_mensuel": 215000.0,
+   "montant_credit": 4030000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 3.1
+  },
+  "proba_attendue": 0.874262032023555
+ },
+ {
+  "entree": {
+   "age": 36,
+   "revenu_mensuel": 152000.0,
+   "montant_credit": 1850000.0,
+   "duree_mois": 48,
+   "anciennete_activite": 11.4
+  },
+  "proba_attendue": 0.2246012802849204
+ },
+ {
+  "entree": {
+   "age": 54,
+   "revenu_mensuel": 361000.0,
+   "montant_credit": 860000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 3.5
+  },
+  "proba_attendue": 0.26249497735971794
+ },
+ {
+  "entree": {
+   "age": 46,
+   "revenu_mensuel": 180000.0,
+   "montant_credit": 240000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 11.5
+  },
+  "proba_attendue": 0.05285560144522465
+ },
+ {
+  "entree": {
+   "age": 48,
+   "revenu_mensuel": 76000.0,
+   "montant_credit": 130000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 0.2
+  },
+  "proba_attendue": 0.42076661600010934
+ },
+ {
+  "entree": {
+   "age": 31,
+   "revenu_mensuel": 251000.0,
+   "montant_credit": 2650000.0,
+   "duree_mois": 60,
+   "anciennete_activite": 9.6
+  },
+  "proba_attendue": 0.2606298340978091
+ },
+ {
+  "entree": {
+   "age": 23,
+   "revenu_mensuel": 212000.0,
+   "montant_credit": 320000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 1.5
+  },
+  "proba_attendue": 0.3661909831439337
+ },
+ {
+  "entree": {
+   "age": 25,
+   "revenu_mensuel": 248000.0,
+   "montant_credit": 850000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 10.0
+  },
+  "proba_attendue": 0.13028988043474982
+ },
+ {
+  "entree": {
+   "age": 27,
+   "revenu_mensuel": 231000.0,
+   "montant_credit": 3400000.0,
+   "duree_mois": 48,
+   "anciennete_activite": 10.0
+  },
+  "proba_attendue": 0.36928902274614045
+ },
+ {
+  "entree": {
+   "age": 39,
+   "revenu_mensuel": 183000.0,
+   "montant_credit": 400000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 2.5
+  },
+  "proba_attendue": 0.3744515507425424
+ },
+ {
+  "entree": {
+   "age": 44,
+   "revenu_mensuel": 177000.0,
+   "montant_credit": 640000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 5.9
+  },
+  "proba_attendue": 0.21781607715391016
+ },
+ {
+  "entree": {
+   "age": 22,
+   "revenu_mensuel": 174000.0,
+   "montant_credit": 1130000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 7.0
+  },
+  "proba_attendue": 0.47130947746528873
+ },
+ {
+  "entree": {
+   "age": 38,
+   "revenu_mensuel": 91000.0,
+   "montant_credit": 970000.0,
+   "duree_mois": 48,
+   "anciennete_activite": 3.1
+  },
+  "proba_attendue": 0.575833905358235
+ },
+ {
+  "entree": {
+   "age": 42,
+   "revenu_mensuel": 57000.0,
+   "montant_credit": 280000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 3.6
+  },
+  "proba_attendue": 0.47417022333512787
+ },
+ {
+  "entree": {
+   "age": 35,
+   "revenu_mensuel": 308000.0,
+   "montant_credit": 570000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 3.8
+  },
+  "proba_attendue": 0.28156478041295163
+ },
+ {
+  "entree": {
+   "age": 46,
+   "revenu_mensuel": 132000.0,
+   "montant_credit": 1060000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 0.4
+  },
+  "proba_attendue": 0.745403896700365
+ },
+ {
+  "entree": {
+   "age": 34,
+   "revenu_mensuel": 113000.0,
+   "montant_credit": 160000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 4.6
+  },
+  "proba_attendue": 0.35417318254858715
+ },
+ {
+  "entree": {
+   "age": 32,
+   "revenu_mensuel": 335000.0,
+   "montant_credit": 1530000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 1.0
+  },
+  "proba_attendue": 0.5949081659735358
+ },
+ {
+  "entree": {
+   "age": 41,
+   "revenu_mensuel": 128000.0,
+   "montant_credit": 760000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 12.3
+  },
+  "proba_attendue": 0.0916484228896461
+ },
+ {
+  "entree": {
+   "age": 44,
+   "revenu_mensuel": 109000.0,
+   "montant_credit": 270000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 9.4
+  },
+  "proba_attendue": 0.13521488266262616
+ },
+ {
+  "entree": {
+   "age": 45,
+   "revenu_mensuel": 151000.0,
+   "montant_credit": 760000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 3.7
+  },
+  "proba_attendue": 0.4765871397336721
+ },
+ {
+  "entree": {
+   "age": 34,
+   "revenu_mensuel": 237000.0,
+   "montant_credit": 1390000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 11.3
+  },
+  "proba_attendue": 0.14482763559774897
+ },
+ {
+  "entree": {
+   "age": 32,
+   "revenu_mensuel": 166000.0,
+   "montant_credit": 1110000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 6.1
+  },
+  "proba_attendue": 0.3931144138723102
+ },
+ {
+  "entree": {
+   "age": 52,
+   "revenu_mensuel": 62000.0,
+   "montant_credit": 80000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 2.8
+  },
+  "proba_attendue": 0.25080228692309786
+ },
+ {
+  "entree": {
+   "age": 56,
+   "revenu_mensuel": 227000.0,
+   "montant_credit": 330000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 7.2
+  },
+  "proba_attendue": 0.6204057692725193
+ },
+ {
+  "entree": {
+   "age": 36,
+   "revenu_mensuel": 113000.0,
+   "montant_credit": 110000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 8.2
+  },
+  "proba_attendue": 0.13652149534167626
+ },
+ {
+  "entree": {
+   "age": 62,
+   "revenu_mensuel": 206000.0,
+   "montant_credit": 490000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 6.4
+  },
+  "proba_attendue": 0.1548047400745392
+ },
+ {
+  "entree": {
+   "age": 49,
+   "revenu_mensuel": 112000.0,
+   "montant_credit": 350000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 4.0
+  },
+  "proba_attendue": 0.40495204297673204
+ },
+ {
+  "entree": {
+   "age": 18,
+   "revenu_mensuel": 314000.0,
+   "montant_credit": 280000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 2.5
+  },
+  "proba_attendue": 0.3519121014275793
+ },
+ {
+  "entree": {
+   "age": 22,
+   "revenu_mensuel": 195000.0,
+   "montant_credit": 510000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 6.6
+  },
+  "proba_attendue": 0.5987509709370734
+ },
+ {
+  "entree": {
+   "age": 42,
+   "revenu_mensuel": 39000.0,
+   "montant_credit": 100000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 6.9
+  },
+  "proba_attendue": 0.539621690328817
+ },
+ {
+  "entree": {
+   "age": 63,
+   "revenu_mensuel": 577000.0,
+   "montant_credit": 8440000.0,
+   "duree_mois": 48,
+   "anciennete_activite": 0.5
+  },
+  "proba_attendue": 0.7807081671001237
+ },
+ {
+  "entree": {
+   "age": 18,
+   "revenu_mensuel": 181000.0,
+   "montant_credit": 210000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 3.0
+  },
+  "proba_attendue": 0.391058269635246
+ },
+ {
+  "entree": {
+   "age": 32,
+   "revenu_mensuel": 82000.0,
+   "montant_credit": 70000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 1.3
+  },
+  "proba_attendue": 0.6229273593152994
+ },
+ {
+  "entree": {
+   "age": 39,
+   "revenu_mensuel": 123000.0,
+   "montant_credit": 570000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 5.6
+  },
+  "proba_attendue": 0.5457500911070108
+ },
+ {
+  "entree": {
+   "age": 41,
+   "revenu_mensuel": 394000.0,
+   "montant_credit": 470000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 7.1
+  },
+  "proba_attendue": 0.12100170182415448
+ },
+ {
+  "entree": {
+   "age": 46,
+   "revenu_mensuel": 340000.0,
+   "montant_credit": 2970000.0,
+   "duree_mois": 48,
+   "anciennete_activite": 4.9
+  },
+  "proba_attendue": 0.40785582041895413
+ },
+ {
+  "entree": {
+   "age": 43,
+   "revenu_mensuel": 223000.0,
+   "montant_credit": 1730000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 9.5
+  },
+  "proba_attendue": 0.19940747797713756
+ },
+ {
+  "entree": {
+   "age": 36,
+   "revenu_mensuel": 207000.0,
+   "montant_credit": 170000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 3.8
+  },
+  "proba_attendue": 0.25742213521448776
+ },
+ {
+  "entree": {
+   "age": 47,
+   "revenu_mensuel": 62000.0,
+   "montant_credit": 540000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 0.2
+  },
+  "proba_attendue": 0.6749990864859441
+ },
+ {
+  "entree": {
+   "age": 47,
+   "revenu_mensuel": 297000.0,
+   "montant_credit": 1390000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 5.1
+  },
+  "proba_attendue": 0.26831619219017266
+ },
+ {
+  "entree": {
+   "age": 20,
+   "revenu_mensuel": 129000.0,
+   "montant_credit": 320000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 5.0
+  },
+  "proba_attendue": 0.22753132086464428
+ },
+ {
+  "entree": {
+   "age": 41,
+   "revenu_mensuel": 134000.0,
+   "montant_credit": 1710000.0,
+   "duree_mois": 60,
+   "anciennete_activite": 3.8
+  },
+  "proba_attendue": 0.5898157658996928
+ },
+ {
+  "entree": {
+   "age": 54,
+   "revenu_mensuel": 127000.0,
+   "montant_credit": 230000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 10.5
+  },
+  "proba_attendue": 0.07653603054596833
+ },
+ {
+  "entree": {
+   "age": 55,
+   "revenu_mensuel": 64000.0,
+   "montant_credit": 200000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 1.6
+  },
+  "proba_attendue": 0.36569750402923074
+ },
+ {
+  "entree": {
+   "age": 42,
+   "revenu_mensuel": 340000.0,
+   "montant_credit": 2470000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 2.8
+  },
+  "proba_attendue": 0.4882057749462607
+ },
+ {
+  "entree": {
+   "age": 25,
+   "revenu_mensuel": 87000.0,
+   "montant_credit": 230000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 0.6
+  },
+  "proba_attendue": 0.843997635352885
+ },
+ {
+  "entree": {
+   "age": 51,
+   "revenu_mensuel": 89000.0,
+   "montant_credit": 100000.0,
+   "duree_mois": 9,
+   "anciennete_activite": 5.0
+  },
+  "proba_attendue": 0.18572267006544557
+ },
+ {
+  "entree": {
+   "age": 48,
+   "revenu_mensuel": 279000.0,
+   "montant_credit": 1160000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 8.6
+  },
+  "proba_attendue": 0.18686895135270673
+ },
+ {
+  "entree": {
+   "age": 47,
+   "revenu_mensuel": 151000.0,
+   "montant_credit": 450000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 3.7
+  },
+  "proba_attendue": 0.4040874180228885
+ },
+ {
+  "entree": {
+   "age": 49,
+   "revenu_mensuel": 173000.0,
+   "montant_credit": 500000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 1.8
+  },
+  "proba_attendue": 0.4887972598039245
+ },
+ {
+  "entree": {
+   "age": 63,
+   "revenu_mensuel": 384000.0,
+   "montant_credit": 640000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 3.5
+  },
+  "proba_attendue": 0.2456735207123133
+ },
+ {
+  "entree": {
+   "age": 43,
+   "revenu_mensuel": 515000.0,
+   "montant_credit": 210000.0,
+   "duree_mois": 3,
+   "anciennete_activite": 5.2
+  },
+  "proba_attendue": 0.20936128995148312
+ },
+ {
+  "entree": {
+   "age": 60,
+   "revenu_mensuel": 104000.0,
+   "montant_credit": 150000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 7.5
+  },
+  "proba_attendue": 0.20826633839016323
+ },
+ {
+  "entree": {
+   "age": 27,
+   "revenu_mensuel": 177000.0,
+   "montant_credit": 550000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 9.1
+  },
+  "proba_attendue": 0.13816393724587783
+ },
+ {
+  "entree": {
+   "age": 54,
+   "revenu_mensuel": 115000.0,
+   "montant_credit": 180000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 6.6
+  },
+  "proba_attendue": 0.14396780297482029
+ },
+ {
+  "entree": {
+   "age": 59,
+   "revenu_mensuel": 249000.0,
+   "montant_credit": 1410000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 6.5
+  },
+  "proba_attendue": 0.37024541443760456
+ },
+ {
+  "entree": {
+   "age": 40,
+   "revenu_mensuel": 176000.0,
+   "montant_credit": 710000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 5.6
+  },
+  "proba_attendue": 0.2523285512024119
+ },
+ {
+  "entree": {
+   "age": 33,
+   "revenu_mensuel": 119000.0,
+   "montant_credit": 1150000.0,
+   "duree_mois": 36,
+   "anciennete_activite": 4.4
+  },
+  "proba_attendue": 0.5236404182163726
+ },
+ {
+  "entree": {
+   "age": 42,
+   "revenu_mensuel": 204000.0,
+   "montant_credit": 1930000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 3.4
+  },
+  "proba_attendue": 0.9701044853830406
+ },
+ {
+  "entree": {
+   "age": 37,
+   "revenu_mensuel": 64000.0,
+   "montant_credit": 310000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 18.5
+  },
+  "proba_attendue": 0.026545302901319585
+ },
+ {
+  "entree": {
+   "age": 39,
+   "revenu_mensuel": 405000.0,
+   "montant_credit": 480000.0,
+   "duree_mois": 6,
+   "anciennete_activite": 1.0
+  },
+  "proba_attendue": 0.47310470508063895
+ },
+ {
+  "entree": {
+   "age": 38,
+   "revenu_mensuel": 288000.0,
+   "montant_credit": 490000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 0.3
+  },
+  "proba_attendue": 0.4293484035912732
+ },
+ {
+  "entree": {
+   "age": 40,
+   "revenu_mensuel": 171000.0,
+   "montant_credit": 960000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 0.9
+  },
+  "proba_attendue": 0.6784303746303358
+ },
+ {
+  "entree": {
+   "age": 39,
+   "revenu_mensuel": 769000.0,
+   "montant_credit": 2050000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 17.4
+  },
+  "proba_attendue": 0.03168977896203234
+ },
+ {
+  "entree": {
+   "age": 41,
+   "revenu_mensuel": 174000.0,
+   "montant_credit": 970000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 0.8
+  },
+  "proba_attendue": 0.5830953389768244
+ },
+ {
+  "entree": {
+   "age": 55,
+   "revenu_mensuel": 197000.0,
+   "montant_credit": 1120000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 9.2
+  },
+  "proba_attendue": 0.2545547282574286
+ },
+ {
+  "entree": {
+   "age": 42,
+   "revenu_mensuel": 169000.0,
+   "montant_credit": 630000.0,
+   "duree_mois": 12,
+   "anciennete_activite": 13.0
+  },
+  "proba_attendue": 0.12783701585615578
+ },
+ {
+  "entree": {
+   "age": 47,
+   "revenu_mensuel": 96000.0,
+   "montant_credit": 440000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 1.0
+  },
+  "proba_attendue": 0.5747741884696883
+ },
+ {
+  "entree": {
+   "age": 48,
+   "revenu_mensuel": 183000.0,
+   "montant_credit": 1120000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 2.2
+  },
+  "proba_attendue": 0.649343355439964
+ },
+ {
+  "entree": {
+   "age": 37,
+   "revenu_mensuel": 145000.0,
+   "montant_credit": 550000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 0.1
+  },
+  "proba_attendue": 0.5657734355136304
+ },
+ {
+  "entree": {
+   "age": 48,
+   "revenu_mensuel": 190000.0,
+   "montant_credit": 1710000.0,
+   "duree_mois": 18,
+   "anciennete_activite": 4.8
+  },
+  "proba_attendue": 0.7636235032089417
+ },
+ {
+  "entree": {
+   "age": 44,
+   "revenu_mensuel": 157000.0,
+   "montant_credit": 660000.0,
+   "duree_mois": 24,
+   "anciennete_activite": 8.4
+  },
+  "proba_attendue": 0.1597025611972159
+ },
+ {
+  "entree": {
+   "age": 18,
+   "revenu_mensuel": 60000,
+   "montant_credit": 150000,
+   "duree_mois": 6,
+   "anciennete_activite": 0
+  },
+  "proba_attendue": 0.8439287498402882
+ },
+ {
+  "entree": {
+   "age": 75,
+   "revenu_mensuel": 400000,
+   "montant_credit": 2000000,
+   "duree_mois": 12,
+   "anciennete_activite": 40
+  },
+  "proba_attendue": 0.0008128266091118139
+ },
+ {
+  "entree": {
+   "age": 35,
+   "revenu_mensuel": 250000,
+   "montant_credit": 1000000,
+   "duree_mois": 12,
+   "anciennete_activite": 4
+  },
+  "proba_attendue": 0.546491835464642
+ },
+ {
+  "entree": {
+   "age": 40,
+   "revenu_mensuel": 150000,
+   "montant_credit": 50000,
+   "duree_mois": 1,
+   "anciennete_activite": 10
+  },
+  "proba_attendue": 0.2946090624050402
+ },
+ {
+  "entree": {
+   "age": 30,
+   "revenu_mensuel": 100000,
+   "montant_credit": 6000000,
+   "duree_mois": 60,
+   "anciennete_activite": 0.5
+  },
+  "proba_attendue": 0.9987195494555224
+ },
+ {
+  "entree": {
+   "age": 50,
+   "revenu_mensuel": 3000000,
+   "montant_credit": 20000000,
+   "duree_mois": 36,
+   "anciennete_activite": 20
+  },
+  "proba_attendue": 0.020944733093799697
+ }
+]
