@@ -21,6 +21,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from sklearn.metrics import roc_auc_score
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from app import config  # noqa: E402
@@ -47,20 +48,23 @@ def generer(n: int = N_DOSSIERS, seed: int = config.SEED) -> pd.DataFrame:
     montant = np.round(np.clip(revenu * duree * effort, 50_000, config.MONTANT_MAX), -4)
     taux_effort = montant / duree / revenu
 
-    # constante calée pour un taux de défaut d'environ 10 % (ordre de grandeur
-    # d'un portefeuille de microcrédit) ; seul réglage fait sur les données
+    # Réglage (sans aucun modèle) : taux de défaut d'environ 10 % et AUC de la vraie
+    # probabilité proche de 0,80, ordre de grandeur d'un score de crédit utilisable.
+    # Un premier réglage donnait une AUC maximale de 0,68 : signal trop faible pour
+    # que le critère d'acceptation (AUC >= 0,75) soit atteignable (anomalie AN-01).
     logit = (
         -2.2
-        + 3.2 * (taux_effort - 0.25)
-        - 0.10 * np.minimum(anciennete, 10)
-        + 0.55 * (anciennete < 1)
-        + 0.015 * (duree - 12)
-        + 0.70 * (age < 25)
-        + 0.60 * (age > 60)
+        + 6.5 * (taux_effort - 0.25)
+        - 0.20 * np.minimum(anciennete, 10)
+        + 0.80 * (anciennete < 1)
+        + 0.02 * (duree - 12)
+        + 1.00 * (age < 25)
+        + 0.90 * (age > 60)
     )
-    defaut = rng.binomial(1, 1 / (1 + np.exp(-logit)))
+    probabilite = 1 / (1 + np.exp(-logit))
+    defaut = rng.binomial(1, probabilite)
 
-    return pd.DataFrame(
+    df = pd.DataFrame(
         {
             "age": age,
             "revenu_mensuel": revenu,
@@ -70,16 +74,19 @@ def generer(n: int = N_DOSSIERS, seed: int = config.SEED) -> pd.DataFrame:
             config.TARGET: defaut,
         }
     )
+    return df, probabilite
 
 
 def main() -> None:
-    df = generer()
+    df, probabilite = generer()
     config.DATA_PATH.parent.mkdir(exist_ok=True)
     # fins de ligne LF imposées : sous Windows, pandas écrirait CRLF et l'empreinte
     # SHA-256 du fichier ne serait plus la même après passage par Git (Linux en CI)
     df.to_csv(config.DATA_PATH, index=False, lineterminator="\n")
     print(f"{len(df)} dossiers écrits dans {config.DATA_PATH.name}")
     print(f"taux de défaut : {df[config.TARGET].mean():.1%}")
+    # AUC obtenue avec la vraie probabilité : plafond qu'aucun modèle ne peut dépasser
+    print(f"AUC maximale atteignable : {roc_auc_score(df[config.TARGET], probabilite):.3f}")
     print(df.describe().round(2).to_string())
 
 

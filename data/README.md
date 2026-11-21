@@ -13,7 +13,8 @@
 | `anciennete_activite` | décimal | ancienneté de l'activité en années |
 | `defaut` | 0 / 1 | 1 = défaut de remboursement simulé |
 
-Taux de défaut : 10,0 % (600 défauts).
+Taux de défaut : 9,8 % (587 défauts). AUC de la vraie probabilité de défaut : 0,800 :
+c'est le plafond qu'aucun modèle ne peut dépasser sur ces données.
 
 ## Comment le défaut est simulé
 
