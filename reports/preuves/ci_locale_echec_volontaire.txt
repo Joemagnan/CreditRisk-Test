@@ -1,0 +1,16 @@
+# Exécution locale des étapes de la CI sur la branche demo/echec-volontaire (9e0af3b) — 21/11/2026 12:42
+# Modification : taux_effort calculé avec la durée en années au lieu des mois
+$ ruff check .
+All checks passed!
+exit=0
+$ pytest --cov=app --cov-fail-under=90
+E         comparison failed
+E             comparison failed
+Required test coverage of 90% reached. Total coverage: 96.36%
+FAILED tests/test_integration.py::test_scenario_principal_de_bout_en_bout - a...
+FAILED tests/test_regression.py::test_predictions_identiques_sur_les_cas_de_reference
+FAILED tests/test_regression.py::test_metriques_conformes_a_la_reference - As...
+FAILED tests/test_regression.py::test_sorties_de_l_api_conformes_au_contrat
+FAILED tests/test_robustness.py::test_gagner_plus_n_augmente_pas_le_risque - ...
+5 failed, 192 passed in 6.13s
+exit=1
